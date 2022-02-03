@@ -35,7 +35,7 @@ public class MarkdownParse {
             System.out.println(currentIndex);
         }
         return toReturn;
-        //adding a comment
+       
     }
     public static void main(String[] args) throws IOException {
 		Path fileName = Path.of(args[0]);
