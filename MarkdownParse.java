@@ -24,11 +24,11 @@ public class MarkdownParse {
                         int whiteSpace =  markdown.indexOf(" ", openParen);
                         for (int i = openParen; i < closeParen; ++i){
                             if (whiteSpace == i) {
-                                toReturn.remove(markdown.substring(openParen + 1, closeParen));
+                                toReturn.remove(markdown.substring(openParen + 1, closeParen)); 
         
-                            }
-                        }
-                    }
+                            //}
+                        //}
+                   // }
 
             
             currentIndex = closeParen + 1;
