@@ -26,9 +26,9 @@ public class MarkdownParse {
                             if (whiteSpace == i) {
                                 toReturn.remove(markdown.substring(openParen + 1, closeParen)); 
         
-                            //}
-                        //}
-                   // }
+                            }
+                        }
+                    }
 
             
             currentIndex = closeParen + 1;
